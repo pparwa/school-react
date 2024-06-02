@@ -1,0 +1,23 @@
+.footer-container{
+    min-height: 10vh;
+    font-size: xx-large;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  
+overflow: hidden;}
+i{
+    font-size: 40px;
+}
+@media(max-width:768px) {
+    .footer-container{
+        min-height: 10vh;
+           
+            width: 100vw;
+            font-size: large;
+    }
+    i{
+        font-size: 30px;
+    }
+}

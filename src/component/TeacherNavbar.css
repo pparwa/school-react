@@ -1,0 +1,24 @@
+.linksize{
+    font-size: 1vw;
+    color: rgb(46, 41, 41)
+}
+.dashlink{
+    transition: 2s;
+}
+.dashlink:hover{
+    background-color: aqua;
+
+}
+.out{
+    transition: 1.5s;
+}
+.out:hover{
+    background-color: rgb(227, 98, 98);
+}
+
+@media(max-width:968px) {
+.linksize {
+        font-size: 3vw;
+        
+    }
+}

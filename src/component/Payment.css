@@ -1,0 +1,123 @@
+
+.payment-parent{
+    width: 60vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.payment-page{
+    width: 100%;
+    border: 2px solid rgb(244, 238, 238);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 4px 8px rgb(185, 185, 185);
+}
+
+.payment-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+}
+.card-payment{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-payment label{
+    align-self: self-start;
+    margin-right: 1.5rem;
+}
+.card-payment input{
+    width: 80%;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    text-align: center;
+}
+.icon{
+    padding-left: 25px;
+        background: url("../img/keyboard.png") no-repeat left;
+        background-size: 30px;
+}
+.date-payment{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap:10px
+}
+.date-payment-code{
+    width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.date-payment-code input{
+    width: 80%;
+        border-radius: 10px 10px 10px 10px;
+        padding: 5px;
+        text-align: center;
+}
+.date-payment-date{
+    width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.date-payment-date input{
+    width: 80%;
+        border-radius: 10px 10px 10px 10px;
+        padding: 5px;
+        text-align: center;
+}
+.random-payment{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.random-payment-cadr{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.random-payment-cadr input{
+    width: 50%;
+    border-radius: 10px 10px 10px 10px;
+        padding: 5px;
+        text-align: center;
+}
+
+.get-pass{
+    width: 100%;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+}
+.get-pass-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.get-pass-box input{
+    width: 50%;
+        border-radius: 10px 10px 10px 10px;
+        padding: 5px;
+        text-align: center;
+}
+.get-pass .box{
+    background-color:rgb(160, 160, 160);
+    width: 35%;
+    margin-left: 5.5rem;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+

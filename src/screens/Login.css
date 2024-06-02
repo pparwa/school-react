@@ -1,0 +1,21 @@
+.login-position{
+    margin-top: 140px;
+}
+.recaptcha{
+    display: flex;
+    justify-content: center;
+    
+
+}
+@media(max-width:968px){
+    .login-position {
+            margin-top: 60px;
+        }
+                .recaptcha {
+                    
+                    transform: scale(0.77);
+                        transform-origin: 0 0;
+                    
+                
+                }
+}

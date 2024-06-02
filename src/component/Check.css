@@ -1,0 +1,20 @@
+.check-parent{
+    width: 50vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.check-parent-value{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(211, 204, 204);
+    box-shadow: 7px 11px rgb(194, 192, 192);
+    
+
+}
