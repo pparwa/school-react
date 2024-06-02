@@ -1,0 +1,74 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "rahman",
+      "lastname": "mohammadi",
+      "grade": 1,
+      "role": "student",
+      "present": false
+    },
+    {
+      "id": 440,
+      "name": "amir",
+      "lastname": "mohammadi",
+      "grade": 1,
+      "pass": "3232",
+      "role": "student",
+      "present": false
+    },
+    {
+      "id": 441,
+      "name": "Homayoun",
+      "lastname": "parwa",
+      "role": "student",
+      "pass": "3720900940",
+      "grade": 2,
+      "present": false
+    },
+    {
+      "id": 442,
+      "name": "hanieh",
+      "lastname": "bayezgoli",
+      "role": "student",
+      "pass": "13201",
+      "grade": "3"
+    }
+  ],
+  "Admin": [
+    {
+      "id": 123,
+      "name": "parsa",
+      "lastname": "parwa",
+      "pass": "3720900940",
+      "role": "admin"
+    }
+  ],
+  "teachers": [
+    {
+      "id": 45,
+      "name": "parsa",
+      "lastname": "parwa",
+      "pass": "3720900940",
+      "role": "teacher",
+      "grade": 1
+    }
+  ],
+  "Practice": [
+    {
+      "id": 1,
+      "personid": 45,
+      "grade": 1,
+      "text": "salam",
+      "name": "parsa",
+      "role": "teacher"
+    },
+    {
+      "id": 2,
+      "personid": 440,
+      "grade": 1,
+      "text": "che tori ostad",
+      "name": "amir"
+    }
+  ]
+}
