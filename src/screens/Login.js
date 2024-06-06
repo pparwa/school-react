@@ -143,17 +143,23 @@ export default function Login(){
 
     return(
    <Fade delay={1000}>   
-    <div className="container mx-auto  border border-3 border-primary border-rounded login-position mt-5" style={{height:"50%",width:"40vw"}}>
-       <div className="border rounded-circle border-4 border-dark mt-3 mx-auto" style={{width:"20%"}}> <h2 className="text-center mt-3"><i class="fa-solid fa-user"></i></h2> </div>
-         <form class="row g-3 p-3" onSubmit={LoginForm.handleSubmit}>
+    <div className="Login-Container">
+         <form class="Login-Form" onSubmit={LoginForm.handleSubmit}>
+       <div className="user-icon"> 
+          <div className="icon-container">
+            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/user.png" alt="user"/>
+          </div>
+          </div>  
 
-            <div class="col-12">
+
+       <div className="input-box">
+            <div class="Field">
             <label for="name">نام کاربری</label>
             <input type="text" class="form-control" id="name" placeholder="نام کاربری" value={LoginForm.values.name} onChange={LoginForm.handleChange} 
             onBlur={LoginForm.handleBlur}/>
           <h6 className="text-danger text-center">  {LoginForm.errors.name && LoginForm.touched.name && LoginForm.errors.name } </h6>
             </div>
-            <div class="col-12">
+            <div class="Field">
                <label for="inputPassword2">رمزعبور</label>
                <input name="pass" type="password" class="form-control" id="inputPassword2" placeholder="رمزعبور"  value={LoginForm.values.pass} onChange={LoginForm.handleChange}
                onBlur={LoginForm.handleBlur}/>
@@ -166,10 +172,10 @@ export default function Login(){
              <option value="students">دانش آموز</option>
               <option value="teachers">معلم</option>
               <option value="Admin">ادمین</option>
-</select>
+    </select>
  <h6 className="text-danger text-center">{LoginForm.errors.role && LoginForm.touched.role && LoginForm.errors.role }</h6>
-             </div>
-          
+    </div>
+      
 <div className="d-flex justify-content-center align-items-center recaptcha">
              <ReCAPTCHA 
           
@@ -179,8 +185,9 @@ export default function Login(){
          />
       </div>
               <div class="d-flex justify-content-center align-items-center mt-2" style={{cursor:recaptcha ? 'pointer' : 'not-allowed'}}>
-         <button type="submit" class="btn btn-primary mx-auto mb-0"  disabled={!recaptcha} style={{cursor:recaptcha ? 'pointer' : 'not-allowed'}}>ورود</button>
+         <button type="submit" class="btn btn-dark mx-auto mb-0 px-5 py-3"  disabled={!recaptcha} style={{cursor:recaptcha ? 'pointer' : 'not-allowed'}}>ورود</button>
              </div>
+               </div>  
          </form>
 
          </div>
